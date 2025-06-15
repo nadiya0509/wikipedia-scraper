@@ -4,14 +4,9 @@ of the leaders of a number of countries using and API,
 scraps the first paragraph of the wikipedia pages,
 cleans from tags associated with [] and ⓘ symbols,
 and writes and reads from a json file.
-
-Notes:
-- First paragraph is identified as one that follows a "super-short" paragraph,
-    but it does not work for russian leaders. Alternative identification using <b> tag
-    has not been completely implemented due to lack of time.  
  
-To launch type:
-    python leaders_scraper.py
+To launch type in cmd:
+    py leaders_scraper.py
 """
 
 import requests
